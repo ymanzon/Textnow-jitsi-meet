@@ -46,13 +46,14 @@ body.welcome-page {
         }
 
         .header-text-description {
-            display: $welcomePageHeaderTextDescriptionDisplay;
+            // display: $welcomePageHeaderTextDescriptionDisplay;
             color: $welcomePageDescriptionColor;
             font-size: $welcomePageHeaderTextDescriptionFontSize;
             font-weight: $welcomePageHeaderTextDescriptionFontWeight;
             line-height: $welcomePageHeaderTextDescriptionLineHeight;
             margin-bottom: $welcomePageHeaderTextDescriptionMarginBottom;
-            align-self: $welcomePageHeaderTextDescriptionAlignSelf;
+            // align-self: $welcomePageHeaderTextDescriptionAlignSelf;
+            text-align: center;
         }
 
         #enter_room {
