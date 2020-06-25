@@ -166,8 +166,7 @@ class WelcomePage extends AbstractWelcomePage {
 
         return (
             <div
-                className = { `welcome ${showAdditionalContent
-                    ? 'with-content' : 'without-content'}` }
+                className = { `welcome ${showAdditionalContent ? 'with-content' : 'without-content'}` }
                 id = 'welcome_page'>
                 <div className = 'welcome-watermark'>
                     <Watermarks />
@@ -192,6 +191,11 @@ class WelcomePage extends AbstractWelcomePage {
                             { t('welcomepage.appDescription',
                                 { app: APP_NAME }) }
                         </p>
+                        <img
+                            alt = 'TextNow'
+                            className = 'tn-logo'
+                            data-no-retina = ''
+                            src = 'images/textnowLogo.svg' />
                     </div>
                 </div>
                 { showAdditionalContent
